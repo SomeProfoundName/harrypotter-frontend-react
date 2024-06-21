@@ -1,4 +1,6 @@
 import Header from './Header'
+import Landing from './Landing'
+import Characters from './Characters'
 
 function App() {
 
@@ -6,6 +8,8 @@ function App() {
   return (
     <>
     <Header/>
+    <Landing/>
+    <Characters/>
     </>
   )
 }

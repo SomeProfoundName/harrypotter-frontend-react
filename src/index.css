@@ -6,6 +6,12 @@
   font-family: "Sedan SC";
 }
 
+body {
+  overflow-x: hidden;
+}
+
+/* NAV / HEADER */
+
 header {
   height: 100px;
   background: linear-gradient(180deg, rgba(55,46,41,1) 0%, rgba(157,131,117,1) 100%);
@@ -38,3 +44,65 @@ header {
   font-size: 1rem;
   color: rgb(51, 51, 51);
 }
+
+/* LANDING AREA */
+
+#overlay {
+  overflow-y: hidden;
+}
+
+section {
+  height: 800px;
+  background-color: #1E1E1E;
+  z-index: 5;
+}
+
+.landing-container {
+  display: flex;
+  padding-top: 100px;
+}
+
+
+.landing-image img{
+  position: relative;
+  width: 600px;
+  height: 600px;
+  object-fit: contain;
+}
+
+.landing-text {
+  justify-content: center;
+  align-self: center;
+  color: white;
+
+  margin-left: 30px;
+}
+
+.landing-text p {
+  font-family: "Ibaara Real Nova";
+  font-style: normal;
+  font-size: 3rem;
+}
+
+
+/* character area */
+
+.characters-area {
+  position: relative;
+  top: 0;
+}
+
+
+.spacer {
+  aspect-ratio: 1000/25;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.layer1 {
+  background-image: url('./assets/paper-bottom.svg');
+}
+
+
