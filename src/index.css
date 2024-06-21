@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital,wght@0,400..700;1,400..700&family=Playwrite+US+Trad:wght@100..400&family=Sedan+SC&display=swap');
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Sedan SC";
+}
+
+header {
+  height: 100px;
+  background: linear-gradient(180deg, rgba(55,46,41,1) 0%, rgba(157,131,117,1) 100%);
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  flex-grow: 1;
+  text-align: center;
+  align-self: center;
+
+  font-family: "Sedan SC", serif;
+  font-size: 1.5rem;
+  color: White;
+}
+
+.search {
+  justify-content: center;
+  align-self: center;
+}
+
+.search input {
+  margin-right: 20px;
+  height: 40px;
+  width: 350px;
+  background: linear-gradient(0deg, rgba(240,199,94,1) 50%, rgba(157,131,117,0) 100%);
+  border: none;
+  border-bottom: 3px solid #1E1E1E;
+  font-size: 1rem;
+  color: rgb(51, 51, 51);
+}
