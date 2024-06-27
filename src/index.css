@@ -8,7 +8,7 @@
 
 body {
   overflow-x: hidden;
-  background-color: darkgray;
+  background-color: #372E29;
 }
 
 /* NAV / HEADER */
@@ -53,21 +53,36 @@ header {
 }
 
 section {
-  height: 800px;
+  height: 550px;
   background-color: #1E1E1E;
-  z-index: 5;
+}
+
+.landing {
+  width: 100%;
+  height: 550px;
+}
+
+#landing-background{
+  opacity: 0.1;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: absolute;
 }
 
 .landing-container {
   display: flex;
-  padding-top: 100px;
+  padding: 50px 50px 0px 50px;
+  z-index: 0;
 }
 
 
 .landing-image img{
   position: relative;
-  width: 600px;
-  height: 600px;
+  width: 450px;
+  height: 450px;
   object-fit: contain;
 }
 
@@ -81,8 +96,9 @@ section {
 
 .landing-text p {
   font-family: "Ibaara Real Nova";
+  text-shadow: rgba(255,255,255,0.53) 0px 0px 33px;
   font-style: normal;
-  font-size: 3rem;
+  font-size: 1.5rem;
 }
 
 
@@ -90,23 +106,37 @@ section {
 
 .characters-area {
   position: relative;
-  top: 0;
+  top: -100px;
 }
 
 
-.spacer {
-  aspect-ratio: 1000/25;
+/* .spacer {
+  aspect-ratio: 1920/100;
   width: 100%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  z-index: 1;
+} */
+
+.background-image {
+  position: absolute;
+  top: -20px;
+  aspect-ratio: 1920/1000;
+  width: 100%;
+  -webkit-mask-image: url(src/assets/paper-top-expanded.svg);
+  -webkit-mask-size: cover;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
 }
 
-.layer1 {
-  background-image: url('./assets/paper-bottom.svg');
-}
+/* .layer1 {
+  background-image: url('./assets/paper-top.svg-expanded');
+} */
 
 .main{
+  position: relative;
+  top: 100px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

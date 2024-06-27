@@ -20,7 +20,9 @@ function Characters() {
     
     return(
         <div className="characters-area">
-            <div className='spacer layer1'></div>
+            <div className='spacer layer1'>
+                <img src="src/assets/map-background.png" alt="canvas map background image" className='background-image' />
+            </div>
             <div className="main">
             {wizards.map((wizard) => {
                 console.log(wizard)
