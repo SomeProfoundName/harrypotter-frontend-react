@@ -1,10 +1,12 @@
 import styles from './Card.module.css';
+import VanillaTilt from 'vanilla-tilt';
+
 
 
 function Cards(props) {
 
     return (
-        <div key={props.index} className={styles.character}>
+        <div key={props.index} className={styles.character} data-tilt>
             <div className={styles.characterinner}>
                 <div className={styles.front}>
                     <img src={props.image} alt={props.alt}/>
