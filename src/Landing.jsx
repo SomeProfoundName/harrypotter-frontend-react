@@ -8,7 +8,7 @@ function Landing() {
                     <img src="src/assets/night-sky-starts.jpg" alt="background image of a night sky with moving starts that have been blured" id="landing-background"/>
                     <div className="landing-container">
                         <div className="landing-image">
-                            <img src="src/assets/Trio.png" alt="An image of Harry Potter, Hermione Granger and Ronald Weaslie" />
+                            <img src="src/assets/Trio.png" alt="An image of Harry Potter, Hermione Granger and Ronald Weaslie" id='hp-image'/>
                         </div>
                         <div className="landing-text">
                             <p>

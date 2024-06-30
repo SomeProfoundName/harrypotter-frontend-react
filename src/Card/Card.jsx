@@ -3,10 +3,18 @@ import VanillaTilt from 'vanilla-tilt';
 
 
 
+
+
 function Cards(props) {
 
+    const element = document.querySelectorAll(`.${styles.character}`);
+    VanillaTilt.init(element, {
+        glare: true,
+        "max-glare": 0.4
+    })
+
     return (
-        <div key={props.index} className={styles.character} data-tilt>
+        <div key={props.index} className={styles.character}>
             <div className={styles.characterinner}>
                 <div className={styles.front}>
                     <img src={props.image} alt={props.alt}/>
