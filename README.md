@@ -1,4 +1,4 @@
-<img src="./hp-frontend.png" alt="harry potter frontend made with react.js">
+<img src="./hp-frontend-react.png" alt="harry potter frontend made with react.js">
 
 ## Overview
 
@@ -9,7 +9,7 @@ This repository contains code for a website that connects to my [Harry Potter Ba
 - HTML
 - CSS
 - JavaScript
-- React.js(https://react.dev/)
+- [React.js](https://react.dev/)
 - Vite
 - JSX
 - [Vanilla Tilt](https://micku7zu.github.io/vanilla-tilt.js/)
