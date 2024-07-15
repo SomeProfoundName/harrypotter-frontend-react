@@ -24,7 +24,7 @@ To use this project locally:
 
 ## Additional Infomation
 
-This was a project to learn react.js.
+This was a project to learn react.js. <br>
 This project is still under development and is still being updated. 
 
 ### Socials 
