@@ -1,8 +1,36 @@
-# React + Vite
+<img src="./hp-frontend.png" alt="harry potter frontend made with react.js">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This repository contains code for a website that connects to my [Harry Potter Back-end API](https://github.com/SomeProfoundName/aacw-harrypotter-backend-api). Then uses the JSON data to create cards on the webpage. This webpage was made with react.js
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+- React.js(https://react.dev/)
+- Vite
+- JSX
+- [Vanilla Tilt](https://micku7zu.github.io/vanilla-tilt.js/)
+
+## Installation
+
+To use this project locally:
+
+1. Clone the project with git
+2. Run to the webpage, use `npm run dev` in the project directory terminal.
+3. Use the link it gives you in a web browser.
+
+## Additional Infomation
+
+This was a project to learn react.js.
+This project is still under development and is still being updated. 
+
+### Socials 
+
+<img align="left" src="./ME-pf.gif" width="200">
+
+- [LinkedIn](https://www.linkedin.com/in/collinscomondi/) <br>
+- [Instagram](https://www.instagram.com/someprofoundname/) <br>
+- [Website Portfolio](https://www.someprofoundname.com)
